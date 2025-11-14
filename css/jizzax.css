@@ -113,3 +113,11 @@ a:hover{
     text-transform: none;
     font-family: serif;
 }
+
+@media only screen and (max-width: 720px) {
+  .navbar .container{
+    display: flex;
+    flex-direction: column; 
+    gap: 30px;
+  }
+}
