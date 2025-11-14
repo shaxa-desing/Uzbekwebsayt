@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    /* font-weight: 900; */
+}
+
+
+.container{
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Bebas Neue';
+    transition: 0.3s;
+}
+
+a:hover{
+    text-decoration: 2px underline red;
+}
+
+/* ===================== Navbar ================================================ */
+
+.navbar{
+    margin-bottom: 20px;
+    outline: 3px solid red;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.navv__list{
+    display: flex;
+    gap: 30px;
+}
+
+.nav__img{
+    width: 180px;
+}
+
+/* ================ HEADER ======================= */
+
+.header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/jizzax--background.jpg) center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+.header .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 170px;
+    gap: 40px;
+}
+
+.header__title{
+    font-size: 60px;
+    color: white;
+}
+
+.header__title-span{
+    color: red;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 16px;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: red;
+}
+
+/*  =================================== MAIN ================ */
+
+.main{
+    margin-block: 30px;
+}
+
+#about .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.about__text{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 16px;
+    line-height: 20px;
+    text-transform: none;
+    font-family: serif;
+}
