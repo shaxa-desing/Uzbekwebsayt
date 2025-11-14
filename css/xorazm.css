@@ -39,9 +39,9 @@ ul {
 
 .header-navigation__iteam {
    display: flex;
+   justify-content: space-between;
    gap: 20px;
 }
-
 hr {
    border: 1px solid orangered;
 }
@@ -107,4 +107,11 @@ span {
    align-items: center;
    padding: 0 25px;
    background-color: black
+}
+
+@media only screen and (max-width: 720px) {
+  .header-contener{
+    display: flex;
+   flex-direction: column;
+  }
 }
