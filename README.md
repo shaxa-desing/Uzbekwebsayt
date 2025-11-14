@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Bosh sahifa | Home</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <!-- Logo -->
+        <a  class="site-logo" href="index.html">
+            <img class="site-logo-img" src="images/logo-black.svg" alt="UzbekistonLogo" width="200px">    
+        </a> 
+       <!-- Naviator oynasi -->
+       <nav class="siteNav">
+           <ul class="siteNav-list">
+              <li class="siteNav-iteam">
+                  <a class="siteNave-link" href="#">Home</a>
+                </li>
+              <li class="siteNav-iteam">
+                  <a class="siteNave-link" href="#">About</a>    
+                </li>
+              <li  class="siteNav-iteam">
+                  <a class="siteNave-link" href="#">News</a>
+            </li>
+              <li class="siteNav-iteam">
+                <a class="siteNave-link" href="#">Contact</a>
+            </li>
+        </ul>   
+    </nav>
+    </header>
+    
+    <hr style="background-color: brown;padding: 0.30000px; border-radius: 10px; ">
+    <!-- Main -->
+    <main class="main-contend"> 
+        <div class="hero-section">
+            <!-- Hero -->
+             <div class="hero-img-div">
+          <section class="hero-content">
+             <h1 class="hero-heading">
+                 Welcom to 
+                 <span style="color: red;"> Uzbekiston </span>
+                </h1>
+             <button class="btn hero-btn">Obuna bo`lish</button>
+          </section>
+             </div>
+        </div>
+           <!-- Yangiliklar oynasi -->
+        <section class="new">
+            <h3 class="new-heading">Yangiliklar</h3>
+            <div class="new-cards">
+                <div class="new-div">
+                    <!-- contend -->
+                    <ul class="new-list">
+                        <li class="new-item">
+                            <img class="new-item-image" src="images/sayyohlar-qulaylik.png" alt="Sayohatchilar uchun qulay joylar">
+                            <!-- Contend -->
+                            <h4 class="new-item-contend">Sayyohlar uchun qulayliklar</h4>
+                            <p class="new-item-list-contend">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsa id dolor dolorem autem, officia, voluptatibus quos placeat ut ratione neque. Culpa nostrum assumenda possimus ut neque officia ipsum tempore.</p>
+                            <!-- Btn more -->
+                            <p class="new-item-list-btnmore"> Ko`proq </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="new-div">
+                    <ul class="new-list">
+                        <li  class="new-item">
+                            <img class="new-item-image" src="images/tungi-shaxar.png" alt="Sayohatchilar uchun qulay joylar">
+                        <h4 class="new-item-contend">Sayyohlar uchun qulayliklar</h4>
+                        <p class="new-item-list-contend">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsa id dolor dolorem autem, officia, voluptatibus quos placeat ut ratione neque. Culpa nostrum assumenda possimus ut neque officia ipsum tempore.</p>
+                        <p class="new-item-list-btnmore">Ko`proq</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="new-div">
+                    <ul class="new-list">
+                        <li class="new-item">
+                            <img class="new-item-image" src="images/yangi-abyektlar.png" alt="Sayohatchilar uchun qulay joylar">
+                        <h4 class="new-item-contend"> Sayyohlar uchun qulayliklar </h4>
+                        <p class="new-item-list-contend"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio ipsa id dolor dolorem autem, officia, voluptatibus quos placeat ut ratione neque. Culpa nostrum assumenda possimus ut neque officia ipsum tempore. </p>
+                        <p class="new-item-list-btnmore">Ko`proq</p >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Reklama -->
+        <aside class = "aside">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/vQVwkyn3-F8?si=YFIoii-PjDPiQZmK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </aside>
+        <hr>
+        <!-- Regions -->
+        <section class="regions">
+            <h4 class="regions-header"> Viloyatlar ro`yhati </h4>
+            <div class="regions-div">
+                <ul class="regions-item">
+                    <li class="regions-item-list"> Andijon viloyati </li>
+                    <li class="regions-item-list"> Namangan viloyati </li>
+                    <li class="regions-item-list"> Farg`ona viloyati </li>
+                    <li class="regions-item-list"> Toshkent viloyati </li>
+                    <li class="regions-item-list"> Jizzax viloyati </li>
+                </ul> 
+                <hr>
+    
+                <ul class="regions-item">
+                    <li class="regions-item-list"> Surxandaryo viloyati </li>
+                    <li class="regions-item-list"> Qashqadaryo viloyati </li>
+                    <li class="regions-item-list"> Sirdaryo viloyati </li>
+                    <li class="regions-item-list"> Samarqand viloyati </li>
+                    <li class="regions-item-list"> Navoi viloyati </li>
+                </ul>
+                <hr>
+                <ul class="regions-item">
+                    <li class="regions-item-list"> Buxaro viloyati </li>
+                    <li class="regions-item-list"> Xorazm viloyati </li>
+                    <li class="regions-item-list"> Qoraqalpakiston Respublikasi </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+        <!-- FOOTER -->
+    <footer class="footer">
+        <h4 class="footer-heading">Biz bilan bog`lanish</h4>
+        <div class="footer-conect">
+            <ul class="footer-heading-list">
+                <li class="footer-heading-item">
+                    <a class="footer-link" href="#">
+                        <img class="footer-link-img" src="images/icon-facebook.svg" alt="facebook-icon" width="30px">
+                    </a>
+                </li>
+                <li class="footer-heading-item">
+                    <a class="footer-link" href="#">
+                        <img class="footer-link-img" src="images/icon-instagram.svg" alt="instagram-icon" width="30px">
+                    </a>
+                </li>
+                <li class="footer-heading-item">
+                    <a class="footer-link" href="#">
+                        <img class="footer-link-img" src="images/icon-telegram.svg" alt="telegram-icon" width="30px">
+                    </a>
+                </li>
+                <li class="footer-heading-item">
+                    <a class="footer-link" href="#">
+                        <img class="footer-link-img" src="images/icon-youtube.svg" alt="youtube-icon" width="30px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </footer>
+   <!-- Logo -->
+   <hr style="background-color: brown;padding: 0.30000px; border-radius: 10px; ">
+   <!-- Naviator oynasi -->
+    <footer class="footerNew">
+        <nav class="footer-siteNav">
+            <a class="footer-site-logo" href="index.html">
+                <img class="footer-site-logo-img" src="images/logo-white.svg" alt="UzbekistonLogo" width="200px">
+           </a> 
+            <ul class="footer-siteNav-list">
+              <li class="footer-siteNav-iteam">
+                <a class="footer-siteNave-link" href="#">Home</a>
+            </li>
+              <li class="footer-siteNav-iteam">
+                <a class="footer-siteNave-link" href="#">About</a>    
+            </li>
+              <li  class="footer-siteNav-iteam">
+                <a class="footer-siteNave-link" href="#">News</a>
+            </li>
+              <li class="footer-siteNav-iteam">
+                <a class="footer-siteNave-link" href="#">Contact</a>
+            </li>
+            </ul>   
+        </nav>
+    </footer>
+</body>
+</html>
