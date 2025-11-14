@@ -16,6 +16,11 @@ ul {
   list-style: none;
 }
 
+a{
+  text-decoration: none;
+  color: #000;
+}
+
 /* Header */
 .site-header {
   display: flex;
@@ -260,7 +265,7 @@ ul {
 }
 
 /* Telefon (480px dan kichik ekranlar uchun) */
-@media (max-width: 480px) {
+@media (max-width: 720px) {
   .hero-heading {
     font-size: 36px;
   }
